@@ -17,11 +17,14 @@ qt_add_executable(Koya
     src/main.cpp
 )
 
+qt_policy(SET QTP0004 NEW)
+
 qt_add_qml_module(Koya
     URI Koya
     VERSION 1.0
     QML_FILES
         src/AppShell.qml
+        src/room/RoomStage.qml
 )
 
 target_link_libraries(Koya
