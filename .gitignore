@@ -3,6 +3,8 @@ CLAUDE.local.md
 .claude/
 docs-lib/
 .qmlls.ini
+build-vim/
+.vim/
 
 # CMake build artifacts
 build/
