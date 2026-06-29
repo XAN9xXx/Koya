@@ -1,0 +1,25 @@
+# Koya：所有可识别文本文件统一以 LF 存储和检出。
+* text=auto eol=lf
+
+# 二进制资源：禁止 Git 尝试进行换行符转换。
+*.png  -text
+*.jpg  -text
+*.jpeg -text
+*.webp -text
+*.gif  -text
+*.ico  -text
+
+*.wav  -text
+*.mp3  -text
+*.ogg  -text
+*.mp4  -text
+
+*.ttf  -text
+*.otf  -text
+
+*.pdf  -text
+*.zip  -text
+*.7z   -text
+
+*.exe  -text
+*.dll  -text
