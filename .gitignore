@@ -5,6 +5,8 @@ docs-lib/
 .qmlls.ini
 build-vim/
 .vim/
+.agents/
+AGENTS.md
 
 # CMake build artifacts
 build/

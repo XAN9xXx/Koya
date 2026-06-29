@@ -6,7 +6,8 @@ ApplicationWindow {
     width: 1280;
     height: 800;
     visible: true;
-    RoomStage {
+
+    RoomPage {
         anchors.fill: parent;
     }
 }

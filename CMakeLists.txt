@@ -24,7 +24,8 @@ qt_add_qml_module(Koya
     VERSION 1.0
     QML_FILES
         src/AppShell.qml
-        src/room/RoomStage.qml
+        src/room/RoomPage.qml
+        src/room/components/RoomStage.qml
 )
 
 target_link_libraries(Koya
