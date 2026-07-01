@@ -25,6 +25,8 @@ qt_add_qml_module(Koya
     QML_FILES
         src/AppShell.qml
         src/room/RoomPage.qml
+        src/room/components/ExteriorScene.qml
+        src/room/components/RoomBase.qml
         src/room/components/RoomStage.qml
 )
 
